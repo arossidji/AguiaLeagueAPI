@@ -1,0 +1,17 @@
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\bin\Debug\net6.0\AguiaLeague.Application.deps.json
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\bin\Debug\net6.0\AguiaLeague.Application.dll
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\bin\Debug\net6.0\ref\AguiaLeague.Application.dll
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\bin\Debug\net6.0\AguiaLeague.Application.pdb
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\bin\Debug\net6.0\AguiaLeague.Data.dll
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\bin\Debug\net6.0\AguiaLeague.Domain.dll
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\bin\Debug\net6.0\AguiaLeague.Domain.pdb
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\bin\Debug\net6.0\AguiaLeague.Data.pdb
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\obj\Debug\net6.0\AguiaLeague.Application.csproj.AssemblyReference.cache
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\obj\Debug\net6.0\AguiaLeague.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\obj\Debug\net6.0\AguiaLeague.Application.AssemblyInfoInputs.cache
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\obj\Debug\net6.0\AguiaLeague.Application.AssemblyInfo.cs
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\obj\Debug\net6.0\AguiaLeague.Application.csproj.CoreCompileInputs.cache
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\obj\Debug\net6.0\AguiaLeague.Application.csproj.CopyComplete
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\obj\Debug\net6.0\AguiaLeague.Application.dll
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\obj\Debug\net6.0\ref\AguiaLeague.Application.dll
+C:\Users\natan\source\repos\AguiaLeagueAPI\AguiaLeague.Application\obj\Debug\net6.0\AguiaLeague.Application.pdb
