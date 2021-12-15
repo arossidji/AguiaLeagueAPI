@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AguiaLeague.Application\AguiaLeague.Application.csproj" />
+    <ProjectReference Include="..\AguiaLeague.Data\AguiaLeague.Data.csproj" />
   </ItemGroup>
 
 </Project>
