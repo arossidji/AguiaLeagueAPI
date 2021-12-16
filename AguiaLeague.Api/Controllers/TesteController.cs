@@ -1,24 +1,21 @@
 using AguiaLeague.Domain.Interfaces.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AguiaLeague.Api.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class TesteController : ControllerBase
     {
-        private readonly ITimeService _timeService;
-
-        public TesteController(ITimeService timeService)
-        {
-            _timeService = timeService;
-        }
-
         [HttpGet]
-        public string Teste()
+        public object Teste()
         {
-            var result = _timeService.ObterPorId(Guid.Empty);
-            return "Ok";
+            return new
+            {
+                teste  = "teste"
+            };
         }
     }
 }
