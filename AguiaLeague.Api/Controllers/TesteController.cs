@@ -1,7 +1,5 @@
-using AguiaLeague.Data;
-using AguiaLeague.Domain.Models;
+using AguiaLeague.Domain.Interfaces.Services;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace AguiaLeague.Api.Controllers
 {
@@ -9,23 +7,18 @@ namespace AguiaLeague.Api.Controllers
     [Route("[controller]")]
     public class TesteController : ControllerBase
     {
-        private readonly AguiaLeagueContext _aguiaLeagueContext;
-        public TesteController(AguiaLeagueContext aguiaLeagueContext)
+        private readonly ITimeService _timeService;
+
+        public TesteController(ITimeService timeService)
         {
-            _aguiaLeagueContext = aguiaLeagueContext;
+            _timeService = timeService;
         }
 
         [HttpGet]
         public string Teste()
         {
-            var time = new Time
-            {
-                Nome = "teste",
-                Tag = "TES"
-            };
-            _aguiaLeagueContext.Entry(time).State = EntityState.Added;
-            var registros = _aguiaLeagueContext.SaveChanges();
-            return "Testando" + registros;
+            var result = _timeService.ObterPorId(Guid.Empty);
+            return "Ok";
         }
     }
 }

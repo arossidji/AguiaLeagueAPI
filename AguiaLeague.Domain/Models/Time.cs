@@ -2,6 +2,6 @@
 
 public class Time : Entity
 {
-    public string Nome { get; set; }
-    public string Tag { get; set; }
+    public string Nome { get; set; } = null!;
+    public string Tag { get; set; } = null!;
 }

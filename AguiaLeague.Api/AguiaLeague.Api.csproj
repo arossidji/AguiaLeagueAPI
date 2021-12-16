@@ -7,12 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.6" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AguiaLeague.Application\AguiaLeague.Application.csproj" />
     <ProjectReference Include="..\AguiaLeague.Data\AguiaLeague.Data.csproj" />
+    <ProjectReference Include="..\AguiaLeague.Domain\AguiaLeague.Domain.csproj" />
   </ItemGroup>
 
 </Project>
