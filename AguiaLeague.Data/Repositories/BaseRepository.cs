@@ -29,6 +29,8 @@ public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : 
     private IQueryable<TEntity> ObterEntidadeComIncludes(IReadOnlyList<string>? includes)
     {
         IQueryable<TEntity> query = _aguiaLeagueContext.Set<TEntity>();
-        return includes == null ? query : includes.Aggregate(query, (current, include) => current.Include(include));
+        return includes == null 
+            ? query 
+            : includes.Aggregate(query, (current, include) => current.Include(include));
     }
 }
